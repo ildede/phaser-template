@@ -5,16 +5,19 @@ A Phaser 3 template with TypeScript that uses Parcel for bundling.
 ## Available commands
 
 Start development server
+
 ```bash
-  yarn dev
+  pnpm run dev
 ```
 
-Build prject
+Build project
+
 ```bash
-  yarn build
+  pnpm run build
 ```
 
 Run eslint to check code formatting
+
 ```bash
   yarn lint
 ```

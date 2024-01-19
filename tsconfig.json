@@ -8,17 +8,10 @@
         "sourceMap": true,
         "baseUrl": "./src",
         "paths": {
-            "~/*": ["./*"]
+            "~/*": ["./*"],
         },
-        "typeRoots": [
-            "node_modules/@types",
-            "node_module/phaser/types"
-        ],
-        "types": [
-            "phaser"
-        ]
+        "typeRoots": ["node_modules/@types", "node_module/phaser/types"],
+        "types": ["phaser"],
     },
-    "include": [
-        "src/**/*"
-    ]
+    "include": ["src/**/*"],
 }
