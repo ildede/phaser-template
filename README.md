@@ -25,4 +25,4 @@ You can manually run lint on your code
   pnpm run lint:format
 ```
 
-A pre-commit command is present to run prettier on all staged files.
+A pre-commit automatic command is present to run prettier on all staged files.
