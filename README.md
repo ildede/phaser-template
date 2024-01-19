@@ -7,7 +7,7 @@ A Phaser 3 template with TypeScript that uses Parcel for bundling.
 Start development server
 
 ```bash
-  pnpm run dev
+  pnpm run watch
 ```
 
 Build project
@@ -16,8 +16,13 @@ Build project
   pnpm run build
 ```
 
-Run eslint to check code formatting
+## Other tools
+
+You can manually run lint on your code
 
 ```bash
-  yarn lint
+  pnpm run lint:check
+  pnpm run lint:format
 ```
+
+A pre-commit command is present to run prettier on all staged files.

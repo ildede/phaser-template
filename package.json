@@ -5,8 +5,10 @@
     "author": "Davide Pedron <davide@happydev.cloud>",
     "license": "MIT",
     "scripts": {
-        "dev": "parcel src/index.html",
+        "watch": "parcel src/index.html",
         "build": "parcel build src/index.html",
+        "lint:check": "eslint '**'",
+        "lint:format": "eslint --fix '**' && prettier  --loglevel warn --write \"./**/*.{js,ts,md,json}\"",
         "prepare": "husky install"
     },
     "dependencies": {
